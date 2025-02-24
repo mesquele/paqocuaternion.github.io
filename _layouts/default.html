@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon192x192.png">
+  </head>
+  <body>
+    <header class="site-header">
+      <h1 class="site-title"><a href="/">El Yuyar</a></h1>
+    </header>
+    {{ content }} <!-- Movemos el contenido antes de main -->
+    <main>
+      <!-- Aquí iría contenido adicional si lo tuvieras -->
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

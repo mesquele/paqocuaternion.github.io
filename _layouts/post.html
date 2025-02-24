@@ -1,0 +1,71 @@
+---
+layout: default
+---
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <div class="share-buttons">
+    <a href="https://www.instagram.com/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" title="Compartir en Instagram"><img src="/assets/images/instagram-icon.png" alt="Instagram" class="share-icon"></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" title="Compartir en Facebook"><img src="/assets/images/facebook-icon.png" alt="Facebook" class="share-icon"></a>
+    <a href="https://www.tiktok.com/sharing?url={{ site.url }}{{ page.url }}" target="_blank" title="Compartir en TikTok"><img src="/assets/images/tiktok-icon.png" alt="TikTok" class="share-icon"></a>
+    <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}" target="_blank" title="Compartir en X"><img src="/assets/images/x-icon.png" alt="X" class="share-icon"></a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" target="_blank" title="Compartir en LinkedIn"><img src="/assets/images/linkedin-icon.png" alt="LinkedIn" class="share-icon"></a>
+    <a href="https://wa.me/?text={{ page.title }}%20{{ site.url }}{{ page.url }}" target="_blank" title="Compartir en WhatsApp"><img src="/assets/images/whatsapp-icon.png" alt="WhatsApp" class="share-icon"></a>
+  </div>
+  <div class="post-nav">
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url | relative_url }}" class="order-button prev">Día anterior</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a href="{{ page.next.url | relative_url }}" class="order-button next">Día siguiente</a>
+    {% endif %}
+  </div>
+</article>
+
+<style>
+.post-content {
+    margin-bottom: 20px;
+}
+
+.share-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.share-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.post-nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.order-button {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 10px;
+    background-color: #46ff51;
+    color: #333333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.order-button:hover {
+    background-color: #ffffff;
+}
+
+.prev {
+    float: left;
+}
+
+.next {
+    float: right;
+}
+</style>

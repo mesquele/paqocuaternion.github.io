@@ -1,0 +1,57 @@
+---
+layout: home
+title: Bitácora de Yuyar
+permalink: /bitacora/
+---
+<h1 class="page-heading">Bitácora</h1>
+<button id="toggle-order" class="order-button">Invertir orden</button>
+<ul class="post-list" id="post-list">
+  {% for post in site.posts %}
+    <li>
+      <h2>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h2>
+    </li>
+  {% endfor %}
+</ul>
+
+<style>
+.page-heading {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px;
+}
+
+.order-button {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 16px;
+    background-color: #46ff51;
+    color: #333333;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: #ffffff;
+}
+
+.post-list {
+    margin: 0 20px;
+    text-align: center;
+}
+</style>
+
+<script>
+document.getElementById('toggle-order').addEventListener('click', function() {
+    var list = document.getElementById('post-list');
+    var items = Array.from(list.getElementsByTagName('li'));
+    items.reverse();
+    list.innerHTML = '';
+    items.forEach(function(item) {
+        list.appendChild(item);
+    });
+});
+</script>
