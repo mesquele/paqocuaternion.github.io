@@ -5,11 +5,11 @@ permalink: /
 ---
 <div class="welcome-wrapper">
   <div class="welcome">
-    <h1>Bienvenidos a Yuyar</h1>
-    <p>Un viaje pixelado por el cultivo natural.</p>
+    <h1>Bienvenidos al Yuyar</h1>
+    <img src="/assets/images/timon.png" alt="Timón" class="timon">
     <div class="buttons">
       <a href="/bitacora" class="button">Bitácora</a>
-      <a href="/store" class="button">Tienda</a>
+      <span class="button disabled" data-hover="En Obras">Tienda</span>
     </div>
   </div>
 </div>
@@ -18,14 +18,13 @@ permalink: /
 .welcome-wrapper {
     background: url('/assets/images/fondo.jpg') no-repeat center center;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
 }
 
 .welcome {
@@ -44,9 +43,18 @@ permalink: /
     margin-bottom: 20px;
 }
 
-.welcome p {
-    font-size: 24px;
-    margin-bottom: 40px;
+.timon {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .buttons .button {
@@ -64,6 +72,42 @@ permalink: /
     background-color: #ffffff;
 }
 
+.buttons .disabled {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #666666;
+    color: #333333;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: not-allowed;
+    position: relative;
+    overflow: hidden;
+}
+
+.buttons .disabled:hover {
+    background-color: #cccccc;
+    color: transparent;
+}
+
+.buttons .disabled::after {
+    content: "Tienda";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+}
+
+.buttons .disabled:hover::after {
+    content: attr(data-hover);
+    color: #666666;
+}
+
 @media (max-width: 768px) {
     .welcome {
         padding: 15px;
@@ -71,10 +115,11 @@ permalink: /
     .welcome h1 {
         font-size: 36px;
     }
-    .welcome p {
-        font-size: 18px;
+    .timon {
+        width: 150px;
+        height: 150px;
     }
-    .buttons .button {
+    .buttons .button, .buttons .disabled {
         display: block;
         margin: 10px auto;
         padding: 12px 25px;
@@ -89,10 +134,11 @@ permalink: /
     .welcome h1 {
         font-size: 28px;
     }
-    .welcome p {
-        font-size: 16px;
+    .timon {
+        width: 150px;
+        height: 150px;
     }
-    .buttons .button {
+    .buttons .button, .buttons .disabled {
         padding: 10px 20px;
         font-size: 14px;
     }

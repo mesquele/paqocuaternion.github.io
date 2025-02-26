@@ -1,12 +1,13 @@
 ---
 layout: home
-title: Bitácora de Yuyar
+title: Bitácora del Yuyar
 permalink: /bitacora/
+pagination:
+  enabled: true
 ---
 <h1 class="page-heading">Bitácora</h1>
-<button id="toggle-order" class="order-button">Invertir orden</button>
-<ul class="post-list" id="post-list">
-  {% for post in site.posts %}
+<ul class="post-list">
+  {% for post in paginator.posts %}
     <li>
       <h2>
         <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -14,6 +15,15 @@ permalink: /bitacora/
     </li>
   {% endfor %}
 </ul>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="order-button prev">Anterior</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="order-button next">Siguiente</a>
+  {% endif %}
+</div>
 
 <style>
 .page-heading {
@@ -24,7 +34,7 @@ permalink: /bitacora/
 
 .order-button {
     display: block;
-    margin: 10px auto;
+    margin: 4px auto;
     padding: 8px 16px;
     background-color: #46ff51;
     color: #333333;
@@ -41,17 +51,26 @@ permalink: /bitacora/
 .post-list {
     margin: 0 20px;
     text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.pagination .order-button {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.prev {
+    float: left;
+}
+
+.next {
+    float: right;
 }
 </style>
-
-<script>
-document.getElementById('toggle-order').addEventListener('click', function() {
-    var list = document.getElementById('post-list');
-    var items = Array.from(list.getElementsByTagName('li'));
-    items.reverse();
-    list.innerHTML = '';
-    items.forEach(function(item) {
-        list.appendChild(item);
-    });
-});
-</script>
