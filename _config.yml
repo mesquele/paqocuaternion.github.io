@@ -2,12 +2,3 @@ title: Yuyar - Bitácora de Cultivo
 email: random.seed22@gmail.com
 twitter_username: paqocuaternion
 description: Un viaje documentando el cultivo de álamos y hierbas aromáticas.
-plugins:
-  - jekyll-paginate-v2
-version: "1.0"  # Nueva línea
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: "/bitacora/page:num/"
-  title: "Bitácora - Página :num"
-  sort_reverse: false

@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Bitácora del Yuyar
-permalink: /bitacora/
+title: Bitácora del Yuyar - Página 2
+permalink: /bitacora/2/
 ---
 <h1 class="page-heading">Bitácora</h1>
 <div class="chapter-info">
@@ -11,15 +11,16 @@ permalink: /bitacora/
 </div>
 <ul class="post-list">
   {% assign sorted_posts = site.posts | sort: 'date' %}
-  {% for post in sorted_posts limit:5 %}
+  {% for post in sorted_posts offset:5 limit:5 %}
     <li>
       <h2><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
     </li>
   {% endfor %}
 </ul>
 <div class="pagination">
-  {% if site.posts.size > 5 %}
-    <a href="/bitacora/2/" class="order-button next">Siguiente</a>
+  <a href="/bitacora/" class="order-button prev">Anterior</a>
+  {% if site.posts.size > 10 %}
+    <a href="/bitacora/3/" class="order-button next">Siguiente</a>
   {% endif %}
 </div>
 <style>
@@ -32,5 +33,6 @@ permalink: /bitacora/
 .pagination { text-align: center; margin: 20px 0; overflow: hidden; }
 .order-button { display: inline-block; padding: 8px 16px; margin: 0 4px; background-color: #46ff51; color: #333333; text-decoration: none; border-radius: 5px; font-size: 14px; }
 .order-button:hover { background-color: #ffffff; }
+.prev { float: left; }
 .next { float: right; }
 </style>
