@@ -9,7 +9,7 @@ permalink: /
     <img src="/assets/images/timon.png" alt="Timón" class="timon">
     <div class="buttons">
       <a href="/bitacora" class="button">Bitácora</a>
-      <span class="button disabled" data-hover="En Obras">Tienda</span>
+      <span class="button disabled" data-hover="En Obras">Kiosco</span>
     </div>
   </div>
 </div>
@@ -26,7 +26,6 @@ permalink: /
     flex-direction: column;
     justify-content: center;
 }
-
 .welcome {
     text-align: center;
     padding: 20px;
@@ -37,45 +36,38 @@ permalink: /
     flex-direction: column;
     justify-content: center;
 }
-
 .welcome h1 {
     font-size: 48px;
     margin-bottom: 20px;
 }
-
 .timon {
     width: 200px;
     height: 200px;
     margin: 20px auto;
     display: block;
 }
-
 .buttons {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
-
 .buttons .button {
     display: inline-block;
     padding: 15px 30px;
-    margin: 10px;
     background-color: #46ff51;
     color: #333333;
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
 }
-
 .buttons .button:hover {
     background-color: #ffffff;
 }
-
 .buttons .disabled {
     display: inline-block;
     padding: 15px 30px;
-    margin: 10px;
     background-color: #666666;
     color: #333333;
     border-radius: 5px;
@@ -84,14 +76,12 @@ permalink: /
     position: relative;
     overflow: hidden;
 }
-
 .buttons .disabled:hover {
     background-color: #cccccc;
     color: transparent;
 }
-
 .buttons .disabled::after {
-    content: "Tienda";
+    content: "Kiosco";
     position: absolute;
     top: 0;
     left: 0;
@@ -102,45 +92,21 @@ permalink: /
     justify-content: center;
     color: #333333;
 }
-
 .buttons .disabled:hover::after {
     content: attr(data-hover);
     color: #666666;
 }
-
 @media (max-width: 768px) {
-    .welcome {
-        padding: 15px;
-    }
-    .welcome h1 {
-        font-size: 36px;
-    }
-    .timon {
-        width: 150px;
-        height: 150px;
-    }
-    .buttons .button, .buttons .disabled {
-        display: block;
-        margin: 10px auto;
-        padding: 12px 25px;
-        font-size: 16px;
-    }
+    .welcome { padding: 15px; }
+    .welcome h1 { font-size: 36px; }
+    .timon { width: 150px; height: 150px; }
+    .buttons { flex-direction: column; }
+    .buttons .button, .buttons .disabled { width: 100%; max-width: 200px; margin: 10px 0; }
 }
-
 @media (max-width: 480px) {
-    .welcome {
-        padding: 10px;
-    }
-    .welcome h1 {
-        font-size: 28px;
-    }
-    .timon {
-        width: 150px;
-        height: 150px;
-    }
-    .buttons .button, .buttons .disabled {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
+    .welcome { padding: 10px; }
+    .welcome h1 { font-size: 28px; }
+    .timon { width: 150px; height: 150px; }
+    .buttons .button, .buttons .disabled { padding: 10px 20px; font-size: 14px; }
 }
 </style>

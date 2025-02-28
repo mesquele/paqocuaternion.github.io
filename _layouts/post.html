@@ -2,7 +2,10 @@
 layout: default
 ---
 <article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-title">
+    <h1>{{ page.title | split: " - " | first }}</h1>
+    <h2>{{ page.title | split: " - " | last }}</h2>
+  </div>
   <div class="post-content">
     {{ content }}
   </div>
@@ -25,54 +28,15 @@ layout: default
 </article>
 
 <style>
-.post-title {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 36px;
-}
-
-.post-content {
-    margin-bottom: 20px;
-}
-
-.share-buttons {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.share-icon {
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
-    vertical-align: middle;
-}
-
-.post-nav {
-    text-align: center;
-    margin: 20px 0;
-    overflow: hidden;
-}
-
-.order-button {
-    display: inline-block;
-    padding: 8px 16px;
-    margin: 0 4px;
-    background-color: #46ff51;
-    color: #333333;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-.order-button:hover {
-    background-color: #ffffff;
-}
-
-.prev {
-    float: left;
-}
-
-.next {
-    float: right;
-}
+.post-title { text-align: center; margin: 20px 0; }
+.post-title h1 { font-size: 28px; font-family: 'Lora', serif; margin: 0; }
+.post-title h2 { font-size: 24px; font-family: 'Lora', serif; margin: 5px 0 0 0; }
+.post-content { margin-bottom: 20px; line-height: 1.8; }
+.share-buttons { text-align: center; margin: 20px 0; }
+.share-icon { width: 20px; height: 20px; margin: 0 5px; vertical-align: middle; }
+.post-nav { text-align: center; margin: 20px 0; overflow: hidden; }
+.order-button { display: inline-block; padding: 8px 16px; margin: 0 10px; background-color: #46ff51; color: #333333; text-decoration: none; border-radius: 5px; font-size: 14px; } /* Margen aumentado de 4px a 10px */
+.order-button:hover { background-color: #ffffff; }
+.prev { float: left; margin-left: 20px; } /* Margen izquierdo aumentado */
+.next { float: right; margin-right: 20px; } /* Margen derecho aumentado */
 </style>
