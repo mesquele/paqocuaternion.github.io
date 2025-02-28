@@ -9,29 +9,36 @@ permalink: /bitacora/
   <p class="chapter-subtitle">Bases y puntos de partida</p>
   <p class="chapter-time">(Febrero a Abril de 2025)</p>
 </div>
-<ul class="post-list">
-  {% assign sorted_posts = site.posts | sort: 'date' %}
-  {% for post in sorted_posts limit:5 %}
-    <li>
-      <h2><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
-    </li>
-  {% endfor %}
-</ul>
-<div class="pagination">
-  {% if site.posts.size > 5 %}
-    <a href="/bitacora/2/" class="order-button next">Siguiente</a>
-  {% endif %}
+<div class="content-wrapper">
+  <ul class="post-list">
+    {% assign sorted_posts = site.posts | sort: 'date' %}
+    {% for post in sorted_posts limit:4 %}
+      <li>
+        <h2><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+      </li>
+    {% endfor %}
+  </ul>
+  <div class="pagination">
+    {% if site.posts.size > 4 %}
+      <a href="/bitacora/2/" class="order-button next">Siguiente</a>
+    {% endif %}
+  </div>
 </div>
 <style>
+body { display: flex; flex-direction: column; min-height: 100vh; margin: 0; }
 .page-heading { text-align: center; margin: 20px 0; font-size: 36px; font-family: 'Lora', serif; }
 .chapter-info { text-align: center; margin: 0 0 20px 0; }
 .chapter-title { margin: 5px 0; font-size: 24px; font-family: 'Lora', serif !important; }
 .chapter-subtitle { margin: 5px 0; font-size: 20px; font-family: 'Lora', serif !important; }
 .chapter-time { margin: 5px 0; font-size: 18px; font-family: 'Roboto', sans-serif; }
+.content-wrapper { flex: 1; min-height: 60vh; } /* Alto mínimo responsive */
 .post-list { margin: 0 20px; text-align: center; list-style: none; padding: 0; }
-.post-list h2 { font-size: 20px; margin: 10px 0; }
+.post-list li { margin: 30px 0; } /* Doble interlineado: de 15px a 30px */
+.post-list h2 { font-size: 20px; margin: 0; }
+.post-link { text-decoration: none; }
+.post-link:hover { text-decoration: underline; }
 .pagination { text-align: center; margin: 20px 0; overflow: hidden; }
-.order-button { display: inline-block; padding: 8px 16px; margin: 0 10px; background-color: #46ff51; color: #333333; text-decoration: none; border-radius: 5px; font-size: 14px; } /* Margen aumentado de 4px a 10px */
+.order-button { display: inline-block; padding: 8px 16px; margin: 0 10px; background-color: #46ff51; color: #333333; text-decoration: none; border-radius: 5px; font-size: 14px; }
 .order-button:hover { background-color: #ffffff; }
-.next { float: right; margin-right: 20px; } /* Margen derecho aumentado */
+.next { float: right; margin-right: 20px; }
 </style>
