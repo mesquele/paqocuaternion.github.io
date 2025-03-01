@@ -6,29 +6,33 @@ permalink: /vivero/alamos/
 <h1 class="page-heading">Álamos del Yuyar</h1>
 <ul class="kiosco-products">
   <li class="product-card">
+    <img src="/assets/images/park.svg" alt="Plantines" class="product-icon">
     <h2>Plantines de Álamo Blanco</h2>
-    <img src="/assets/images/placeholder.png" alt="Plantines">
+    <img src="/assets/images/placeholder.png" alt="Plantines" class="product-img">
     <p>Plantines listos para crecer, directo del Yuyar. Ideales para sombra o madera.</p>
     <span class="price">$XXX</span>
     <a href="https://www.mercadolibre.com.ar" class="buy-button">Comprar</a>
   </li>
   <li class="product-card">
+    <img src="/assets/images/park.svg" alt="Semillas" class="product-icon">
     <h2>Semillas de Álamo Negro</h2>
-    <img src="/assets/images/placeholder.png" alt="Semillas">
+    <img src="/assets/images/placeholder.png" alt="Semillas" class="product-img">
     <p>Semillas seleccionadas, sembrá tu propio Yuyar.</p>
     <span class="price">$XXX</span>
     <a href="https://www.mercadolibre.com.ar" class="buy-button">Comprar</a>
   </li>
   <li class="product-card">
+    <img src="/assets/images/park.svg" alt="Álamo Joven" class="product-icon">
     <h2>Álamo Joven</h2>
-    <img src="/assets/images/placeholder.png" alt="Álamo Joven">
+    <img src="/assets/images/placeholder.png" alt="Álamo Joven" class="product-img">
     <p>Árbol pequeño, listo para trasplantar.</p>
     <span class="price">$XXX</span>
     <a href="https://www.mercadolibre.com.ar" class="buy-button">Comprar</a>
   </li>
   <li class="product-card">
+    <img src="/assets/images/park.svg" alt="Macetas" class="product-icon">
     <h2>Álamo en Maceta</h2>
-    <img src="/assets/images/placeholder.png" alt="Macetas">
+    <img src="/assets/images/placeholder.png" alt="Macetas" class="product-img">
     <p>Álamo en maceta, decorá tu rincón.</p>
     <span class="price">$XXX</span>
     <a href="https://www.mercadolibre.com.ar" class="buy-button">Comprar</a>
@@ -38,18 +42,15 @@ permalink: /vivero/alamos/
 
 <style>
 .page-heading { text-align: center; margin: 20px 0; font-size: 36px; font-family: 'Lora', serif; }
-.kiosco-products { margin: 0 20px; padding: 0; list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
-.product-card { width: 300px; background: #f0f0f0; padding: 15px; border-radius: 5px; text-align: center; }
-.product-card h2 { font-size: 20px; font-family: 'Lora', serif; margin: 0 0 10px 0; }
-.product-card img { width: 300px; height: 170px; object-fit: cover; margin-bottom: 10px; }
-.product-card p { font-size: 14px; font-family: 'Roboto', sans-serif; text-align: justify; margin: 0 0 10px 0; }
-.price { display: block; font-size: 18px; font-family: 'Roboto', sans-serif; text-align: right; margin: 0 0 10px 0; }
+.kiosco-products { margin: 0 20px; padding: 0; list-style: none; display: flex; flex-direction: column; align-items: center; gap: 20px; }
+.product-card { width: 100%; max-width: 300px; background: #f0f0f0; padding: 15px; border-radius: 5px; text-align: center; }
+.product-icon { width: 32px; height: 32px; margin: 0 auto 10px; display: block; }
+.product-card h2 { font-size: 20px; font-family: 'Lora', serif; margin: 0 0 10px 0; color: #333333; }
+.product-img { width: 100%; height: 170px; object-fit: cover; margin-bottom: 10px; }
+.product-card p { font-size: 14px; font-family: 'Roboto', sans-serif; text-align: justify; margin: 0 0 10px 0; color: #333333; }
+.price { display: block; font-size: 18px; font-family: 'Roboto', sans-serif; text-align: right; margin: 0 0 10px 0; color: #333333; }
 .buy-button { display: block; margin: 0 auto; padding: 8px 16px; background-color: #FFC107; color: #333333; text-decoration: none; border-radius: 5px; font-size: 14px; font-family: 'Roboto', sans-serif; }
 .buy-button:hover { background-color: #FFD54F; }
-.order-button { display: block; margin: 20px auto; padding: 8px 16px; background-color: #46ff51; color: #333333; text-decoration: none; border-radius: 5px; font-size: 14px; }
+.order-button { display: block; width: 120px; margin: 20px auto; padding: 8px 16px; background-color: #46ff51; color: #333333; text-decoration: none; border-radius: 5px; font-size: 14px; text-align: center; }
 .order-button:hover { background-color: #ffffff; }
-@media (max-width: 768px) {
-  .kiosco-products { flex-direction: column; align-items: center; }
-  .product-card { width: 100%; max-width: 300px; }
-}
 </style>
