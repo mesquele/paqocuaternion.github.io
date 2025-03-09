@@ -12,14 +12,14 @@ permalink: /bitacora/
 <div class="content-wrapper">
   <ul class="post-list">
     {% assign sorted_posts = site.posts | sort: 'date' %}
-    {% for post in sorted_posts limit:4 %}
+    {% for post in sorted_posts limit:5 %}
       <li>
         <h2><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
       </li>
     {% endfor %}
   </ul>
   <div class="pagination">
-    {% if site.posts.size > 4 %}
+    {% if site.posts.size > 5 %}
       <a href="/bitacora/2/" class="order-button next">Siguiente</a>
     {% endif %}
   </div>
