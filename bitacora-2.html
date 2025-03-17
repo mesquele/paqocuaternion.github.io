@@ -12,7 +12,7 @@ permalink: /bitacora/2/
 <div class="content-wrapper">
   <ul class="post-list">
     {% assign sorted_posts = site.posts | sort: 'date' %}
-    {% for post in sorted_posts offset:4 limit:4 %}
+    {% for post in sorted_posts offset:5 limit:5 %}
       <li>
         <h2><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
       </li>
@@ -20,7 +20,7 @@ permalink: /bitacora/2/
   </ul>
   <div class="pagination">
     <a href="/bitacora/" class="order-button prev">Anterior</a>
-    {% if site.posts.size > 8 %}
+    {% if site.posts.size > 10 %}
       <a href="/bitacora/3/" class="order-button next">Siguiente</a>
     {% endif %}
   </div>
