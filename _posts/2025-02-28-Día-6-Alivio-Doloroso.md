@@ -19,7 +19,7 @@ El miércoles la lluvia fina tejía un manto fresco, y desperté con ecos del ju
 
 <img src="/assets/images/gasa.png" alt="Gasa" style="display: block; margin: 20px auto;">
 
-El jueves la gasa se aferró como maldición —tiré, punzó, y la dejé reinar. Yogur y huevos con puré me sostuvieron hasta la **Hermandad de los Curanderos**, donde un kuka suplente, grumete de higiene, contó 32 vértebras como si fueran doblones. A la vuelta a la Guarida, la señora Kililo anunció su fuga a un cumpleaños, dejándome diligencias y el lugar libre como un puerto sin amo.
+El jueves la gasa se aferró como maldición —tiré, punzó, y la dejé reinar.— Yogur y huevos con puré me sostuvieron hasta la **Hermandad de los Curanderos**, donde un kuka suplente, grumete de higiene, contó 32 vértebras como si fueran doblones. A la vuelta a la Guarida, la señora Kililo anunció su fuga a un cumpleaños, dejándome diligencias y el lugar libre como un puerto sin amo.
 <br>
 
 Terminando la semana la bruma volvió pesada, y mates tibios lamieron mi herida con ternura. Finalicé trámites para la Señora Kililo bajo leves rayos de Inti que asomaban entre nubes, y un té de hojas de albahaca caídas como otoño súbito soltó la gasa rebelde —el hueco, libre y cicatrizado, respiró al fin. Tras un sueño de plomo ajusté el nido de Sombra. La mochila cargada susurra al barranco.
