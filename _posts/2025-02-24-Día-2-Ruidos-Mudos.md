@@ -33,7 +33,7 @@ Con una botella de un cuarto riega sus raíces una semana. Si tres litros por es
 El calor infernal me varó en la Guarida, donde mis días se llenan de consultas remotas sobre aflicciones del alma _—el sino público de un Paqo con demasiada paciencia—._ Pronto saldré, tal vez de noche, a cazar provisiones para los milapanes. Aunque el Tincho ya no tiene reina que custodiar, unos milapanes con cerveza sellarán nuestro pacto: **_No toques, no rompas, y tendrás tu tajada cuando el Yuyar dé frutos_**.
 <br>
 
-Luego está la señora Kililo, casera de la Guarida, una octogenaria que destila penumbras con cada saludo. Al saber de mi posible ausencia, convocó a sus amigas, las chicas del milenio, a un té canasta. ¿Por qué solo cuando me voy? El instinto me susurra que urde algo, pero no indagué _—negaría todo y me tildaría de perseguido—._ Esconderé mis pocas joyas entre los libros, donde ningún pirata husmea, y dejaré trampas en cajones y colchones: un calcetín viejo y una nota que rece: **_¿Buscabas esto?_**.
+Luego está la señora Kililo, casera de la Guarida, una octogenaria que destila penumbras con cada saludo. Al saber de mi posible ausencia, convocó a sus amigas, las chicas del milenio, a un té canasta. ¿Por qué solo cuando me voy? El instinto me susurra que urde algo, pero no indagué _—negaría todo y me tildaría de perseguido—._ Esconderé mis pocas joyas entre los libros, donde ningún pirata husmea, y dejaré trampas en cajones y colchones: un calcetín viejo y una nota que rece: **_¿Buscabas esto?_**
 
 <img src="/assets/images/separador.png" alt="Separador" style="display: block; margin: 20px auto;">
 
