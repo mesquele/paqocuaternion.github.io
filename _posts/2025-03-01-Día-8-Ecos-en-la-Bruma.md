@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dia 8 - Sombras Magnéticas"
+title: "Dia 8 - Ecos en la Bruma"
 date: 2024-03-02 13:00
 ---
 <div style="text-align: center;">
