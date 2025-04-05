@@ -19,7 +19,7 @@ Al alba, cuando el sol asomó como un vigía con resaca, retumbó el tambor del 
 
 <img src="/assets/images/pezbotas.jpg" alt="Pez con botas" style="display: block; margin: 20px auto;">
 
-Planteé la situación con el almirante, quien ofreció subirle un cuarto de cuota a Barrita para que cuide lo que eso cubra. Pero el Tincho con su lógica aclaró que esa **extensión** es su propia cucha, dejando el **Yuyar** a merced de las malezas que crecen como un astillero fantasma. Claro, su palacio es sagrado y mi flota de álamos puede esperar como un galeón olvidado.
+Planteé subirle un cuarto de cuota a Barrita para que cuide lo que eso cubra, pero el Tincho con su lógica aclaró que esa **extensión** es su propia cucha, dejando el **Yuyar** a merced de las malezas que crecen como un astillero fantasma. Claro, su palacio es sagrado y mi flota de álamos puede esperar como un galeón olvidado.
 <br>
 
 El calor sigue abrasando, los tambores tañen en un preludio febril. Que las nubes traigan más que ruido y el Tincho no me cobre bidones a precio de elixir. Por ahora, la Guarida es mi baluarte. El Carnaval asoma en el horizonte con sus máscaras y su bullicio, listo para engullir la Comarca en un torbellino de pólvora y promesas vanas.
