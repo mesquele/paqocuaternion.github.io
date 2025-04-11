@@ -1,29 +1,22 @@
 ---
 layout: post
-title: "Dia 9 - EN DESARROLLO"
-date: 2024-03-03 13:00
+title: "Dia 10 - En Desarrollo"
+date: 2024-03-04 13:00
 ---
 <div style="text-align: center;">
-  <p>...</p>
+  <p>Todavía no viví éste día...</p>
 </div>
 
 <img src="/assets/images/separador.png" alt="Separador" style="display: block; margin: 20px auto;">
 
 ...
-<br>
 
-...
-
-
-<img src="/assets/images/timon.png" alt="texto_de_la_imagen" style="display: block; margin: 20px auto;">
-
-...
-<br>
+<img src="/assets/images/timon.png" alt="Timon" style="display: block; margin: 20px auto;">
 
 ...
 
 <img src="/assets/images/separador.png" alt="Separador" style="display: block; margin: 20px auto;">
 
 <div style="text-align: center;">
-  <p>...</p>
+  <p>En Desarrollo</p>
 </div>

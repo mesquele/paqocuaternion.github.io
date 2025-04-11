@@ -25,7 +25,7 @@ En la planificación, bendije en secreto al alcalde, un coloso del desgobierno q
 
 En la Guarida, mi plantín de albahaca, la **Paulita** _—bautizada por una novia que amaba bailar al vaivén del centrifugado,—_ reina sobre el lavarropas. La paseé por el camarote buscando su norte, y ella eligió girar en esa danza de espuma y temblores.
 
-<img src="/assets/images/paulita.jpg" alt="Paulita en el lavarropas" style="display: block; margin: 20px auto;">
+<img src="/assets/images/paulita.png" alt="Paulita en el lavarropas" style="display: block; margin: 20px auto;">
 
 Con una botella de un cuarto riega sus raíces una semana. Si tres litros por estaca siguen el mismo compás, mi tripulación tendrá agua para el primer año, o al menos hasta que el Tincho confunda el balde con su cantimplora.
 <br>

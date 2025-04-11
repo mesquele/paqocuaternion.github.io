@@ -33,5 +33,5 @@ Al caer el sol, sorteando las vallas turísticas, visité el manantial del **Amp
 <img src="/assets/images/separador.png" alt="Separador" style="display: block; margin: 20px auto;">
 
 <div style="text-align: center;">
-  <p>La mañana siguiente trajo mates y risas, anécdotas y sueños de proyectos lejanos que no cumplirá.</p>
+  <p>La mañana siguiente trajo mates y risas, anécdotas y sueños de proyectos lejanos.</p>
 </div>

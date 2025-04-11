@@ -11,7 +11,7 @@ date: 2024-01-01 10:00
 
 Hace poco nuestro emperador **Miller**, en un rapto de caridad que casi me hace **aplaudir con las orejas,** decidió aligerarnos de algunos impuestos. Como prestidigitador de las migajas del erario musité al viento: **_¿Y si transmuto aquel rectángulo olvidado en algo más que un cementerio de nogales secos?_** Así zarpó **El Yuyar**, con una tripulación de dos nogales petrificados y un batallón de pastos silvestres dibujado desde un bunker que hasta ayer era solo un eco polvoriento en la montaña.
 
-<img src="/assets/images/nogales.jpg" alt="Nogales Secos" style="display: block; margin: 20px auto;">
+<img src="/assets/images/nogales.png" alt="Nogales Secos" style="display: block; margin: 20px auto;">
 
 La odisea arrancó con cálculos típicos de un cartógrafo ebrio —¿Cuántas estacas, cuánta agua, cuántas veces puedo farfullar **esto va a funcionar** antes de que el viento me devuelva el eco de mi propia locura?— Días atrás, con la sesera atiborrada de números y la ilusión de un niño con un barquito de papel, le solté al Tincho —guardián del Este, marino del ron y primo del caos— que el bunker sería mi cuartel.
 <br>

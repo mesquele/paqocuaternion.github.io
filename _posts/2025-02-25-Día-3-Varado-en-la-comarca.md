@@ -17,7 +17,7 @@ Y aquí yazgo, varado en este puerto ardiente hasta que Inti afloje su látigo d
 
 Al alba, cuando el sol asomó como un vigía con resaca, retumbó el tambor del Tincho. Con su voz gastada por el ron, largó la novedad: **Barrita**, —antes el Último Gaucho, hoy jardinero con ínfulas— reclama un aumento en su alícuota. Lo vi venir como un ciclón tatuado en el radar, con Barrita afilando la garra bajo su sombrero. Cada alma que husmea mi emprendimiento intenta quitar plata, garronear algo o frenarme con excusas más raras que un **pez con botas**. Viene a saquear donde cree que hay oro, pero mi cofre solo guarda ironías y migajas. Hasta el Tincho, con su astucia característica juró que el suministro de agua corriente falló y compró bidones de agua mineral. **"Te los ofrezco vacíos"** soltó, como si fueran cálices del Pacífico. Seguro traen un precio que me hará renegar cuando pise el Yuyar. **“Ya veremos”** gruñí, y en mi cabeza tronó el eco de **Miller: "¡NO HAY PLATA!"**.
 
-<img src="/assets/images/pezbotas.jpg" alt="Pez con botas" style="display: block; margin: 20px auto;">
+<img src="/assets/images/pezbotas.png" alt="Pez con botas" style="display: block; margin: 20px auto;">
 
 Planteé subirle un cuarto de cuota a Barrita para que cuide lo que eso cubra, pero el Tincho con su lógica aclaró que esa **extensión** es su propia cucha, dejando el **Yuyar** a merced de las malezas que crecen como un astillero fantasma. Claro, su palacio es sagrado y mi flota de álamos puede esperar como un galeón olvidado.
 <br>
