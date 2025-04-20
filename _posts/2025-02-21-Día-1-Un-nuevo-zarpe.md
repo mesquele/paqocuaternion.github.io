@@ -9,7 +9,7 @@ date: 2024-01-01 10:00
 
 <img src="/assets/images/separador.png" alt="Separador" style="display: block; margin: 20px auto;">
 
-Hace poco nuestro emperador **Miller**, en un rapto de caridad que casi me hace **aplaudir con las orejas,** decidió aligerarnos de algunos impuestos, y yo, como prestidigitador de las migajas del erario musité al viento **_—¿Y si transmuto aquel rectángulo olvidado en algo más que un cementerio de nogales secos?, y lograrlo sin soltar un cobre, que mis bolsillos cantan vacíos como huayno sin quena.—_**
+Hace poco nuestro emperador **Miller**, en un rapto de caridad que casi me hace **aplaudir con las orejas,** decidió aligerarnos de algunos impuestos, y yo, como prestidigitador de las migajas del erario musité al viento **_—¿Y si transmuto aquel rectángulo olvidado en algo más que un cementerio de nogales secos? Lograr hacerlo andar sin usar ni un cobre, ¡que mis bolsillos cantan vacíos como huayno sin quena!—_**
 <br>
 
 Así zarpó **El Yuyar**, con una tripulación de cuatro nogales petrificados y un batallón de pastos silvestres, dibujado desde un bunker que hasta ayer era un eco polvoriento en la montaña.
