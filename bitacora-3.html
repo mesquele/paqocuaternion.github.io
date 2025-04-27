@@ -7,19 +7,19 @@ permalink: /bitacora/3/
 <div class="chapter-info">
   <p class="chapter-title">Capítulo 1</p>
   <p class="chapter-subtitle">Bases y puntos de partida</p>
-  <p class="chapter-time">(Febrero a Abril de 2025)</p>
+  <p class="chapter-time">(Febrero - Junio de 2025)</p>
 </div>
 <div class="content-wrapper">
   <ul class="post-list">
     {% assign sorted_posts = site.posts | sort: 'date' %}
-    {% for post in sorted_posts offset:5 limit:5 %}
+    {% for post in sorted_posts offset:10 limit:5 %}
       <li>
         <h2><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
       </li>
     {% endfor %}
   </ul>
   <div class="pagination">
-    <a href="/bitacora/" class="order-button prev">Anterior</a>
+    <a href="/bitacora/2/" class="order-button prev">Anterior</a>
     {% if site.posts.size > 15 %}
       <a href="/bitacora/4/" class="order-button next">Siguiente</a>
     {% endif %}
