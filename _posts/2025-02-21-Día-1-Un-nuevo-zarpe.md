@@ -16,7 +16,7 @@ Así zarpó **El Yuyar**, con una tripulación de cuatro nogales petrificados y 
 
 <img src="/assets/images/nogales.png" alt="Nogales Secos" style="display: block; margin: 20px auto;">
 
-La odisea arrancó con cálculos típicos de un cartógrafo ebrio —¿Cuántas estacas, cuánta agua, cuántas veces puedo farfullar **esto va a funcionar** antes de que el viento me devuelva el eco de mi propia locura?— Días atrás, con la sesera atiborrada de números y la ilusión de un niño con un barquito de papel, le solté al Tincho —guardián del Este, marino del ron y primo del caos— que el bunker sería mi cuartel.
+La odisea arrancó con cálculos típicos de un cartógrafo ebrio —¿Cuántas estacas, cuánta agua, cuántas veces puedo farfullar **esto va a funcionar** antes de que el viento me devuelva el eco de mi propia locura?— Días atrás, con la sesera atiborrada de números y la ilusión de un niño con un barquito de papel, le solté al Tincho Cuesta —guardián del Este, marino del ron y primo del caos— que el bunker sería mi cuartel.
 <br>
 
 —**Tincho**, voy a usar el bunker que lleva cuatro años juntando telarañas y malos presagios—, le dije. Y claro, como si un dramaturgo con resaca hubiera garabateado la escena, el bunker mutó de la noche a la mañana en el palacio VIP de una perra decrépita, gentileza del Tincho. ¿Casualidad? No amigos, fue un sabotaje tan sutil como un cañonazo en un velorio. La canísima, con más arrugas que el terreno mismo, reina ahora en mi camarote del capitán, dejando un reguero de pelos y pulgas, que brama: **_¡Aquí mando yo, y vos trapeás!_**.
