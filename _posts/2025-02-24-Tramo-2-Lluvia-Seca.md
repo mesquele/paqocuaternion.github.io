@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Día 2 - Lluvia Seca"
+title: "Tramo 2 - Lluvia Seca"
 date: 2024-01-02 10:00
 ---
 <div style="text-align: center;">

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dia 12 - Cenizas Ordenadas"
+title: "Tramo 12 - Cenizas Ordenadas"
 date: 2024-03-06 13:00
 ---
 <div style="text-align: center;">

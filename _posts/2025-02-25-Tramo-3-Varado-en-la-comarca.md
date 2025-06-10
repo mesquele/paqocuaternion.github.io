@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Día 3 - Varado en La Comarca"
+title: "Tramo 3 - Varado en La Comarca"
 date: 2024-02-25 10:00
 ---
 <div style="text-align: center;">

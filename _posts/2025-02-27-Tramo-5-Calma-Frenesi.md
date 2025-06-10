@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dia 5 - Calma Frenesí"
+title: "Tramo 5 - Calma Frenesí"
 date: 2024-02-27 11:00
 ---
 <div style="text-align: center;">

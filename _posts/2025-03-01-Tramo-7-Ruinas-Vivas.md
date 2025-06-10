@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dia 7 - Ruinas Vivas"
+title: "Tramo 7 - Ruinas Vivas"
 date: 2024-03-01 13:00
 ---
 <div style="text-align: center;">

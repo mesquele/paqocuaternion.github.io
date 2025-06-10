@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dia 6 - Alivio Doloroso"
+title: "Tramo 6 - Alivio Doloroso"
 date: 2024-02-28 13:00
 ---
 <div style="text-align: center;">

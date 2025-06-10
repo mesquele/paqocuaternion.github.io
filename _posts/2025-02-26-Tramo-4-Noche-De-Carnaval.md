@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dia 4 - Noche de Carnaval"
+title: "Tramo 4 - Noche de Carnaval"
 date: 2024-02-26 11:00
 ---
 <div style="text-align: center;">

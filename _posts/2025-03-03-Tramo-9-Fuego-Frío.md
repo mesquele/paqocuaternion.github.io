@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dia 9 - Fuego Frío"
+title: "Tramo 9 - Fuego Frío"
 date: 2024-03-03 13:00
 ---
 <div style="text-align: center;">

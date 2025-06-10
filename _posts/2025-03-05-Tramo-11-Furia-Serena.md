@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Día 11 - Furia Serena"
+title: "Tramo 11 - Furia Serena"
 date: 2024-03-05 13:00
 ---
 <div style="text-align: center;">

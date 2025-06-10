@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Día 1 - Un nuevo zarpe"
+title: "Tramo 1 - Un nuevo zarpe"
 date: 2024-01-01 10:00
 ---
 <div style="text-align: center;">

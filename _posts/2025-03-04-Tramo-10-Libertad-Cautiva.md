@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dia 10 - Libertad Cautiva"
+title: "Tramo 10 - Libertad Cautiva"
 date: 2024-03-04 13:00
 ---
 <div style="text-align: center;">

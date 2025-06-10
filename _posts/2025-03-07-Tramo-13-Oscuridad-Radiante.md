@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dia 13 - Oscuridad Radiante"
+title: "Tramo 13 - Oscuridad Radiante"
 date: 2024-03-07 13:00
 ---
 <div style="text-align: center;">
@@ -28,7 +28,7 @@ Tres hamburguesas con fritas en corteza de cartón. Puro humo del Tincho la cali
 Pasados cuatro días, la señora Kililo comenzó a delirar en las mañanas, frente a su espejo negro. Mensajeaba a sus amistades el querer irse del Barranco, exigía que le consigan una casita para ella sola o un lugar en el asilo, o le tramiten volver a la Guarida al precio antiguo. Balbuceaba rápido y con pausas mentales, como si repitiera un discurso aprendido de memoria. Tincho, con ojos abiertos, asentando con la cabeza y una risa psicópata la miraba como un titiritero, susurrándole permisos para cada paso, robándole monedas mientras ella, nublada, lo adoraba como a un dios falso. Kililo trapeaba su desastre, le daba lo que pedía, y repetía sus guiones, perdida en un potrero de sombras.
 <br>
 
-Un día, unas monedas desaparecieron de mi mochila _—en la Guarida nunca faltó nada, y eso que pasaron piratas de todo tipo—_. Acorralé a Tincho como ladrón y su escándalo ofendido trepó en falacias múltiples y sanata sobre la confianza. Kililo lo defendía, atrapada en su hechizo. La discusión escaló en un torbellino, hasta que **la voz de Illapa** rugió desde mi centro: “¡Cállense!”. Kililo y Tincho tragaron sus palabras atravezados por ojos que no reflejan, a lo lejos Cuarto relinchó cual voz de la Pacha. “Sí, opino lo mismo”, dije, girando al potrillo. Las sombras negras, adheridas a los muebles, temblaron y se disiparon, como polvo en un viento seco. Tincho esquiva mi mirada al hablar en los días siguientes, pasando cerca, dando insultos a estribor.
+Un día, unas monedas desaparecieron de mi mochila _—en la Guarida nunca faltó nada, y eso que pasaron piratas de todo tipo—_. Acorralé a Tincho como ladrón y su escándalo ofendido trepó en falacias múltiples y sanata sobre la confianza. Kililo lo defendía, atrapada en su hechizo. La discusión escaló en un torbellino, hasta que **la voz de Illapa** rugió desde mi centro: “¡Cállense Carajo!”. Kililo y Tincho tragaron sus palabras atravezados por ojos que no reflejan, a lo lejos Cuarto relinchó cual voz de la Pacha. **“Sí, opino lo mismo”**, dije, girando al potrillo. Las sombras negras, adheridas a los muebles, temblaron y se disiparon, como polvo en un viento seco. Tincho esquiva mi mirada al hablar en los días siguientes, pasando cerca, dando insultos a estribor.
 
 <img src="/assets/images/separador.png" alt="Separador" style="display: block; margin: 20px auto;">
 
