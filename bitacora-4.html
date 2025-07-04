@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Bitácora del Yuyar - Página 3
-permalink: /bitacora/3/
+title: Bitácora del Yuyar - Página 4
+permalink: /bitacora/4/
 ---
 <h1 class="page-heading">Bitácora</h1>
 <div class="chapter-info">
@@ -12,16 +12,16 @@ permalink: /bitacora/3/
 <div class="content-wrapper">
   <ul class="post-list">
     {% assign sorted_posts = site.posts | sort: 'date' %}
-    {% for post in sorted_posts offset:10 limit:5 %}
+    {% for post in sorted_posts offset:15 limit:5 %}
       <li>
         <h2><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
       </li>
     {% endfor %}
   </ul>
   <div class="pagination">
-    <a href="/bitacora/2/" class="order-button prev">Anterior</a>
-    {% if site.posts.size > 15 %}
-      <a href="/bitacora/4/" class="order-button next">Siguiente</a>
+    <a href="/bitacora/3/" class="order-button prev">Anterior</a>
+    {% if site.posts.size > 20 %}
+      <a href="/bitacora/5/" class="order-button next">Siguiente</a>
     {% endif %}
   </div>
 </div>
